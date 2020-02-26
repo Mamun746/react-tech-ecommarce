@@ -28,7 +28,7 @@ const HeroWrapper = styled.div`
         font-size:3.5rem;
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
         text-transform:uppercase;
-        latter-spacing:var(--mainSpacing)
+        letter-spacing:var(--mainSpacing)
     }
 `;
 
