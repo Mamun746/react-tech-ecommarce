@@ -7,10 +7,13 @@ import CartColumns from './CartColumns'
 
 export default function Cart() {
     return (
-        <div>
+        <section className="py-5">
+        <div className="container">
+        <Title title='Yours cart items' center/>
+        </div>
             <CartColumns/>
             <CartList/>
             <CartTotal/>
-        </div>
+        </section>
     )
 }
