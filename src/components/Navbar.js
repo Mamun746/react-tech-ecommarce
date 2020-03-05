@@ -14,7 +14,7 @@ export default function Navbar() {
                     <div className="nav-center">
                     <FaBars className="nav-icon" onClick={handleSideBar}/>
                     {/*<img src={logo} alt="store"/>*/}
-                    <h2>Mamun <span style={{color:'var(--primaryColor)'}}>Gadget</span></h2>
+                    <h4>Mamun <span style={{color:'var(--primaryColor)'}}>Gadget</span></h4>
                     <div className="nav-cart">
                     <FaCartPlus className="nav-icon" onClick={handleCart}/>
                     <div className="cart-items">{cartItems}</div>
